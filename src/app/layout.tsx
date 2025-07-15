@@ -3,8 +3,8 @@ import '../styles/globals.css'
 import DarkModeProvider from '@/components/DarkModeProvider'
 
 export const metadata: Metadata = {
-  title: 'Airdrop | nekowawolf',
-  description: 'Airdrop tracking application',
+  title: 'Airdrop | Free',
+  description: 'Airdrop free list',
   icons: {
     icon: '/favicon.ico',
   },
