@@ -1,6 +1,6 @@
 'use client';
 
-import { useAirdropData } from '@/hooks/useAirdropData';
+import { useAirdropEndedData } from '@/hooks/useAirdropData';
 import { useFilterState } from '@/hooks/useFilterState';
 import { FilterOptions } from '@/types/airdrop';
 import Header from '@/components/Header';
@@ -17,8 +17,8 @@ export default function EndedPage() {
     error,
     searchTerm,
     updateSearchTerm,
-    updateFilters
-  } = useAirdropData('ended');
+    updateFilters,
+  } = useAirdropEndedData();
 
   const {
     isFilterActive,
@@ -60,4 +60,4 @@ export default function EndedPage() {
       )}
     </>
   );
-} 
+}

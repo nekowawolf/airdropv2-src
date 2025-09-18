@@ -9,6 +9,7 @@ export interface Airdrop {
   link_claim?: string;
   funding?: string;
   vesting?: 'yes' | 'no';
+  ended_at?: string;
 }
 
 export interface AirdropResponse {
